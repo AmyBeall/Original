@@ -147,3 +147,10 @@ button.action.action-apply {
 	box-shadow: none;
 	color: #fff;
 }
+/*------------Sign in/Create an Account-----------*/
+a.action.create.primary {
+	border-radius: 35px;
+}
+.login-container .fieldset:after {
+	color: #E4007C;
+}
