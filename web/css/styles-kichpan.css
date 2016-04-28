@@ -16,6 +16,16 @@ ul.header.links {
 li.header.links a:active {
 	color: #E4007C;
 }
+.block-search input {
+	border-radius: 35px;	
+}
+._keyfocus *:focus, input:not([disabled]):focus, textarea:not([disabled]):focus, select:not([disabled]):focus {
+	border: 1px solid #60DFE5;
+	box-shadow: 0 0 3px 1px #60DFE5;
+}
+.navigation ul {
+	text-align: center;
+}
 .minicart-wrapper .action.showcart .counter.qty {
 	background: #E4007C;
 	border-radius: 35px; 
@@ -26,6 +36,9 @@ a.header.panel {
 .nav-sections-item-content {
 	background: #fff;
 	border-bottom: 1px solid #60DFE5;
+}
+.navigation .level0.active > .level-top, .navigation .level0.has-active > .level-top {
+	border-color: #E4007C;
 }
 nav.navigation {
 	background: rgba(240, 240, 240, 0);
